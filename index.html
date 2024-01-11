@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Currículum</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1>Diego Agustín Abad</h1>
+      <p>Desarrollador de Software Full Stack</p>
+      <p>Contacto: <a href="mailto:diegoabad.2289@gmail.com">diegoabad.2289@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/diegoabad-fullstack" target="_blank">linkedin.com/in/diegoabad-fullstack</a></p>
+      <button id="downloadBtn">Visualizar CV</button>
+      <a id="downloadBtn" href="assets/files/Diego_Abad_CV.pdf" download="Diego_Abad_CV.pdf">Descargar CV</a>
+    </div>
+  </header>
+
+  <section class="experience">
+    <div class="container">
+      <div class="job">
+        <h2>Software Developer</h2>
+        <p>SoulIT · Jornada completa</p>
+        <p>jun. 2023 - actualidad · 8 meses</p>
+        <p>Provincia de Buenos Aires, Argentina · En remoto</p>
+        <p>Desarrollo de nuevas funcionalidades y mantenimiento de código preexistente con React, Node, Typescript, SQL, Mongo, Nest.</p>
+        <p>Aptitudes: NestJS · Microsoft SQL Server · Redux.js · React.js · JavaScript · Node.js · MongoDB</p>
+        <img src="desafio_latam_logo.png" alt="Desafío Latam Logo">
+      </div>
+
+      <!-- Repite el bloque para cada trabajo -->
+
+      <div class="job">
+        <h2>Tutor de Desarrollo Fullstack</h2>
+        <p>Desafío Latam · Jornada parcial</p>
+        <p>ago. 2023 - actualidad · 6 meses</p>
+        <p>En remoto</p>
+        <p>Acompañamiento de los alumnos, resolviendo dudas y generando ejercicios prácticos para afianzar los conocimientos vistos en clase.</p>
+        <p>Aptitudes: React.js · JavaScript · Node.js · Bootstrap · SQL</p>
+        <img src="desafio_latam_logo.png" alt="Desafío Latam Logo">
+      </div>
+
+      <!-- Repite el bloque para cada trabajo -->
+
+      <div class="job">
+        <h2>Tutor de Javascript</h2>
+        <p>sept. 2022 - actualidad · 1 año 5 meses</p>
+        <p>Aptitudes: JavaScript</p>
+        <img src="coderhouse_logo.png" alt="Coderhouse Logo">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Repite secciones similares para "Tutor de Desarrollo Fullstack", "Coderhouse", "Tutor de Javascript", etc. -->
+
+  <section class="education">
+    <div class="container">
+      <div class="education-entry">
+        <h2>Universidad Siglo 21</h2>
+        <p>Licenciatura, Informática</p>
+        <p>mar. 2023 - dic. 2027</p>
+        <p>Aptitudes: Microsoft SQL Server · Programación orientada a objetos (POO) · Interfaz de programación de aplicaciones (API)</p>
+      </div>
+
+      <div class="education-entry">
+        <h2>Henry</h2>
+        <p>Full Stack Web Developer</p>
+        <p>jul. 2021 - nov. 2021</p>
+        <p>+ 800 Hs de formación a tiempo completo en tecnologías actuales de desarrollo web, trabajo en equipo, dinámicas de pair programing e impulso de habilidades blandas</p>
+        <img src="henry_logo.png" alt="Henry Logo">
+      </div>
+
+      <!-- Repite el bloque para cada entrada de educación -->
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Contacto: tuemail@example.com</p>
+      <p>LinkedIn: linkedin.com/in/tunombre</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('downloadBtn').addEventListener('click', function () {
+      // Puedes cambiar 'ruta/al/cv.pdf' por la ubicación real de tu currículum en PDF
+      window.open('assets/files/Diego_Abad_CV.pdf', '_blank');
+    });
+  </script>
+</body>
+</html>

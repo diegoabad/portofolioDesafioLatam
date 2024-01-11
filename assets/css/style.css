@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #333333;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header p {
+    margin: 5px 0;
+  }
+  
+  .experience, .education {
+    margin-top: 20px;
+  }
+  
+  .job, .study {
+    border-bottom: 1px solid #555555;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .job h2, .study h3 {
+    color: #ff9900;
+  }
+  
+  .date {
+    font-style: italic;
+  }
+  
+  .skills, .achievements {
+    color: #66ccff;
+  }
+  
+  .footer {
+    background-color: #333333;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+
+  #downloadBtn,
+#downloadLink {
+    font-size: 14px;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #4CAF50; /* Verde */
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#downloadBtn:hover,
+#downloadLink:hover {
+  background-color: #45a049; /* Verde más oscuro al pasar el ratón */
+}
